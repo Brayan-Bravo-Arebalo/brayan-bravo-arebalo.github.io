@@ -4,7 +4,7 @@ boton.addEventListener("click", (e) =>{
     e.defaultPrevented;
     const conectarphp = async() =>{
         try {
-            const respuesta = await fetch("http://localhost/vs%20code/mi%20primera%20pagina%20en%20github/backend/conect.php")
+            const respuesta = await fetch("brayan-bravo-arebalo.github.io/backend/conect.php")
             const datos = await respuesta.json()
             console.log(datos);
         } catch (error) {
